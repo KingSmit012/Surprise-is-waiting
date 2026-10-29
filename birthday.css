@@ -33,6 +33,10 @@
 *{ box-sizing:border-box; margin:0; padding:0; }
 html, body{ height:100%; }
 
+html{
+  zoom: 85%;
+}
+
 body{
   background:#12060c;                 /* seam colour under everything */
   overflow:hidden;
@@ -279,8 +283,8 @@ body{
   margin:-.14em -.06em;
 }
 .hl__word{
-  display:inline-block;
-  font-weight:900;
+  /* display:inline-block; */
+  font-weight:600;
   font-size:clamp(52px, 15vw, 168px);
   letter-spacing:-.02em;
   color:#fff6f1;
@@ -332,7 +336,8 @@ body{
 .wish{
   position:absolute;
   left:5.5%; bottom:10%;
-  max-width:46%;
+  max-height: 75%;
+  max-width:50%;
   z-index:6;
   pointer-events:none;
   color:var(--ink);
