@@ -11,6 +11,7 @@ import { defineConfig } from 'vite'
 // Deploy is `npm run build` → dist/, served by the Pages Actions workflow in
 // .github/workflows/deploy.yml — never the raw source, or the browser hits the
 // un-bundled `import 'gsap'` and the film never runs.
+
 export default defineConfig({
   base: '/happy-birthday-tree/',
 })
