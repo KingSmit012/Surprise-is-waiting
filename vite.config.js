@@ -13,5 +13,5 @@ import { defineConfig } from 'vite'
 // un-bundled `import 'gsap'` and the film never runs.
 
 export default defineConfig({
-  base: '/happy-birthday-tree/',
+  base: '/Surprise-is-waiting/'
 })
